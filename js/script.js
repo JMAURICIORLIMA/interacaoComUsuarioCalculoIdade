@@ -14,24 +14,24 @@ botao.addEventListener("click", ()=>{
     } else if(sexo[0].checked){
         resultado.innerHTML = "<p>Homem com "+ idade + " anos</p>";
         if(idade <= 10){
-            img.src = "/imgs/crianca-M.jpg";
+            img.src = "img/crianca-M.jpg";
         } else if (idade <= 18){
-            img.src = "/imgs/adolescente-M.jpg"
+            img.src = "img/adolescente-M.jpg"
         } else if (idade <= 50){
-            img.src = "/imgs/adulto-M.jpg"
+            img.src = "img/adulto-M.jpg"
         } else {
-            img.src = "/imgs/idoso-M.jpg"
+            img.src = "img/idoso-M.jpg"
         }
     } else if (sexo[1].checked){
         resultado.innerHTML = "<p>Mulher com "+ idade + " anos</p>"
         if(idade <= 10){
-            img.src = "/imgs/crianca-F.jpg"
+            img.src = "img/crianca-F.jpg"
         } else if (idade <= 18){
-            img.src = "/imgs/adolescente-F.jpg"
+            img.src = "img/adolescente-F.jpg"
         } else if (idade <= 50){
-            img.src = "/imgs/adulto-F.jpg"
+            img.src = "img/adulto-F.jpg"
         } else {
-            img.src = "/imgs/idoso-F.jpg"
+            img.src = "img/idoso-F.jpg"
         }
     }
 })
