@@ -34,6 +34,4 @@ botao.addEventListener("click", ()=>{
             img.src = "/imgs/idoso-F.jpg"
         }
     }
-
-
 })
